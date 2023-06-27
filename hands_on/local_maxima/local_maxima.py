@@ -18,3 +18,15 @@ def local_maxima(x):
 
 maximum = local_maxima([1,3,-2,0,2,1])
 print(maximum)
+
+#maximum = local_maxima([-1,-1,0,-1])
+#print(maximum)
+
+#maximum = local_maxima([4,2,1,3,1,5])
+#print(maximum)
+
+#maximum = local_maxima([1,2,2,1])
+#print(maximum)
+
+#maximum = local_maxima([1,2,2,3,1])
+#print(maximum)
