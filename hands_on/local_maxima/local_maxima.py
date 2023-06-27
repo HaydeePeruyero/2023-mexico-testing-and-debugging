@@ -7,4 +7,14 @@ def local_maxima(x):
     Output:
     idx -- list of indices of the local maxima in x
     """
-    return []
+    sort_x = sorted(x, reverse=True)
+    list_original = x
+    maximum = []
+    index_m = []
+    for i in range(2):
+    	maximum.append(list_original.index(sort_x[i]))
+    
+    return maximum
+
+maximum = local_maxima([1,3,-2,0,2,1])
+print(maximum)
