@@ -11,7 +11,10 @@ def local_maxima(x):
     list_original = x
     maximum = []
     index_m = []
-    for i in range(2):
+    for i in range(len(x)):
+    	if i == 0:
+    		x[i] > x[i+1]
+    		
     	maximum.append(list_original.index(sort_x[i]))
     
     return maximum
